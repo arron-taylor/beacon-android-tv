@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.jointhebeacon.display"
+4    android:versionCode="5"
+5    android:versionName="0.3.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:6:22-78
+13
+14    <uses-feature
+14-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:8:5-10:36
+15        android:name="android.hardware.touchscreen"
+15-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:9:9-52
+16        android:required="false" />
+16-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:10:9-33
+17    <uses-feature
+17-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:11:5-13:36
+18        android:name="android.software.leanback"
+18-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:12:9-49
+19        android:required="false" />
+19-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:13:9-33
+20
+21    <queries>
+21-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:15:5-17:15
+22        <package android:name="com.android.chrome" />
+22-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:16:9-54
+22-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:16:18-51
+23
+24        <intent>
+24-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/arron/.gradle/caches/transforms-3/7e5226983c63f88d91716ff00e508738/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:27:9-33:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:79:17-69
+25-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:79:25-66
+26
+27            <category android:name="android.intent.category.BROWSABLE" />
+27-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:81:17-78
+27-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:81:27-75
+28
+29            <data android:scheme="https" />
+29-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:82:17-85:46
+29-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:85:21-43
+30        </intent>
+31    </queries>
+32
+33    <application
+33-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:19:5-97:19
+34        android:allowBackup="false"
+34-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:20:9-36
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.1.0] /Users/arron/.gradle/caches/transforms-3/5e79dd06c1ac8bbb64721f8577b05e65/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+36        android:banner="@drawable/tv_banner"
+36-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:21:9-45
+37        android:extractNativeLibs="false"
+38        android:icon="@drawable/ic_launcher"
+38-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:22:9-45
+39        android:label="@string/app_name"
+39-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:23:9-41
+40        android:supportsRtl="true"
+40-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:24:9-35
+41        android:theme="@style/Theme.BeaconDisplay"
+41-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:25:9-51
+42        android:usesCleartextTraffic="false" >
+42-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:26:9-45
+43        <meta-data
+43-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:29:9-31:59
+44            android:name="asset_statements"
+44-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:30:13-44
+45            android:resource="@string/asset_statements" />
+45-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:31:13-56
+46
+47        <activity
+47-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:33:9-87:20
+48            android:name="org.jointhebeacon.display.BeaconDisplayActivity"
+48-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:34:13-50
+49            android:configChanges="keyboardHidden|keyboard|orientation|screenLayout|screenSize"
+49-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:35:13-96
+50            android:exported="true"
+50-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:36:13-36
+51            android:launchMode="singleTask"
+51-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:37:13-44
+52            android:screenOrientation="landscape" >
+52-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:38:13-50
+53            <meta-data
+53-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:41:13-43:54
+54                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+54-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:42:17-78
+55                android:value="@string/launch_url" />
+55-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:43:17-51
+56            <meta-data
+56-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:44:13-46:46
+57                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+57-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:45:17-84
+58                android:value="customtabs" />
+58-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:46:17-43
+59            <meta-data
+59-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:47:13-49:52
+60                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
+60-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:48:17-79
+61                android:value="sticky-immersive" />
+61-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:49:17-49
+62            <meta-data
+62-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:50:13-52:45
+63                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+63-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:51:17-85
+64                android:value="landscape" />
+64-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:52:17-42
+65            <meta-data
+65-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:53:13-55:63
+66                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+66-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:54:17-83
+67                android:resource="@color/beacon_background" />
+67-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:55:17-60
+68            <meta-data
+68-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:56:13-58:63
+69                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+69-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:57:17-88
+70                android:resource="@color/beacon_background" />
+70-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:58:17-60
+71            <meta-data
+71-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:59:13-61:63
+72                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+72-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:60:17-87
+73                android:resource="@color/beacon_background" />
+73-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:61:17-60
+74            <meta-data
+74-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:62:13-64:63
+75                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+75-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:63:17-92
+76                android:resource="@color/beacon_background" />
+76-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:64:17-60
+77
+78            <intent-filter>
+78-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:66:13-70:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:67:17-69
+79-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:67:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:68:17-77
+81-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:68:27-74
+82                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+82-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:69:17-86
+82-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:69:27-83
+83            </intent-filter>
+84            <intent-filter>
+84-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:72:13-76:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:67:17-69
+85-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:67:25-66
+86
+87                <category android:name="android.intent.category.HOME" />
+87-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:74:17-73
+87-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:74:27-70
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:75:17-76
+88-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:75:27-73
+89            </intent-filter>
+90            <intent-filter android:autoVerify="true" >
+90-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:78:13-86:29
+90-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:78:28-53
+91                <action android:name="android.intent.action.VIEW" />
+91-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:79:17-69
+91-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:79:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:75:17-76
+93-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:75:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:81:17-78
+94-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:81:27-75
+95
+96                <data
+96-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:82:17-85:46
+97                    android:host="jointhebeacon.org"
+97-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:83:21-53
+98                    android:path="/network/elmbrook-church/display"
+98-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:84:21-68
+99                    android:scheme="https" />
+99-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:85:21-43
+100            </intent-filter>
+101        </activity>
+102
+103        <receiver
+103-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:89:9-96:20
+104            android:name="org.jointhebeacon.display.BootCompletedReceiver"
+104-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:90:13-50
+105            android:enabled="true"
+105-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:91:13-35
+106            android:exported="true" >
+106-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:92:13-36
+107            <intent-filter>
+107-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:93:13-95:29
+108                <action android:name="android.intent.action.BOOT_COMPLETED" />
+108-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:94:17-79
+108-->/Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:94:25-76
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>

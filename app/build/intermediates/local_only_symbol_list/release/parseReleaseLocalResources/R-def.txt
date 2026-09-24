@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+color beacon_background
+drawable ic_launcher
+drawable tv_banner
+id recovery_actions
+id startup_status
+layout activity_beacon_display
+string app_name
+string asset_statements
+string beacon_wordmark
+string health_check_url
+string launch_url
+string open_android_launcher
+string open_network_settings
+string starting_display
+string waiting_for_connection
+style Theme.BeaconDisplay

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Beacon Display</string>
+    <string name="beacon_wordmark">BEACON</string>
+    <string name="starting_display">Starting display…</string>
+    <string name="waiting_for_connection">Waiting for connection…</string>
+    <string name="open_network_settings">Open Network Settings</string>
+    <string name="open_android_launcher">Open Android Launcher</string>
+    <string name="launch_url" translatable="false">https://jointhebeacon.org/network/elmbrook-church/display</string>
+    <string name="health_check_url" translatable="false">https://jointhebeacon.org/.well-known/assetlinks.json</string>
+    <string name="asset_statements" translatable="false">[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"web","site":"https://jointhebeacon.org"}}]</string>
+</resources>

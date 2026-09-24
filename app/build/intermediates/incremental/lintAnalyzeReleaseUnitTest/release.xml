@@ -1,0 +1,25 @@
+<variant
+    name="release"
+    package="org.jointhebeacon.display"
+    minSdkVersion="23"
+    targetSdkVersion="31"
+    mergedManifest="build/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
+    partialResultsDir="build/intermediates/unit_test_lint_partial_results/release/lintAnalyzeReleaseUnitTest/out"
+    desugaredMethodsFiles="/Users/arron/.gradle/caches/transforms-3/73bb0f5fbbe1dee36e60bdbf585a0a75/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="src/test/AndroidManifest.xml"
+        javaDirectories="src/test/java:src/testRelease/java:src/test/kotlin:src/testRelease/kotlin"
+        assetsDirectories="src/test/assets:src/testRelease/assets"
+        unitTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      type="UNIT_TEST">
+  </artifact>
+</variant>

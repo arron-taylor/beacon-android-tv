@@ -1,0 +1,71 @@
+plugins {
+    id "com.android.application"
+}
+
+def signingDirectory = new File(System.getProperty("user.home"), ".config/beacon-display/signing")
+def signingKeyFile = new File(signingDirectory, "beacon-display-release.jks")
+def signingPasswordFile = new File(signingDirectory, "beacon-display-release.password")
+def signingPassword = signingPasswordFile.exists() ? signingPasswordFile.getText("UTF-8").trim() : null
+
+android {
+    namespace "org.jointhebeacon.display"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "org.jointhebeacon.display"
+        minSdk 23
+        targetSdk 31
+        versionCode 5
+        versionName "0.3.2"
+    }
+
+    signingConfigs {
+        release {
+            if (signingKeyFile.exists() && signingPassword) {
+                storeFile signingKeyFile
+                storePassword signingPassword
+                keyAlias "beacon-display"
+                keyPassword signingPassword
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            if (signingKeyFile.exists() && signingPassword) {
+                signingConfig signingConfigs.release
+            }
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        abortOnError true
+        checkReleaseBuilds true
+    }
+}
+
+dependencies {
+    // 2.5.0 uses AndroidX Browser 1.4.0 (minSdk 16) and is contemporary with Chrome 101.
+    implementation "com.google.androidbrowserhelper:androidbrowserhelper:2.5.0"
+}
+
+tasks.register("verifyReleaseSigningConfiguration") {
+    doLast {
+        if (!signingKeyFile.exists() || !signingPassword) {
+            throw new GradleException("Missing the persistent Beacon Display signing identity. See README.md.")
+        }
+    }
+}
+
+afterEvaluate {
+    tasks.named("assembleRelease").configure {
+        dependsOn("verifyReleaseSigningConfiguration")
+    }
+}

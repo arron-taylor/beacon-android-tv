@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "org.jointhebeacon.display.app-release-7:/layout_activity_beacon_display.xml.flat",
+        "source": "org.jointhebeacon.display.app-main-8:/layout/activity_beacon_display.xml"
+    },
+    {
+        "merged": "org.jointhebeacon.display.app-release-7:/drawable_ic_launcher.xml.flat",
+        "source": "org.jointhebeacon.display.app-main-8:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "org.jointhebeacon.display.app-release-7:/drawable-nodpi_tv_banner.png.flat",
+        "source": "org.jointhebeacon.display.app-main-8:/drawable-nodpi/tv_banner.png"
+    }
+]

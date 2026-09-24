@@ -1,0 +1,7 @@
+#Sat Sep 19 22:58:29 CDT 2026
+base.0=/Users/arron/dev/the-beacon/android/beacon-display/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.1=/Users/arron/dev/the-beacon/android/beacon-display/app/build/intermediates/global_synthetics_dex/release/mergeReleaseGlobalSynthetics/classes.dex
+path.0=classes.dex
+path.1=classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

@@ -1,0 +1,10 @@
+org.jointhebeacon.display.app-core-1.1.0-0 /Users/arron/.gradle/caches/transforms-3/5e79dd06c1ac8bbb64721f8577b05e65/transformed/core-1.1.0/res
+org.jointhebeacon.display.app-androidbrowserhelper-2.5.0-1 /Users/arron/.gradle/caches/transforms-3/7e5226983c63f88d91716ff00e508738/transformed/androidbrowserhelper-2.5.0/res
+org.jointhebeacon.display.app-browser-1.4.0-2 /Users/arron/.gradle/caches/transforms-3/ac4404634e009ec1d4820560da787aa0/transformed/browser-1.4.0/res
+org.jointhebeacon.display.app-pngs-3 /Users/arron/dev/the-beacon/android/beacon-display/app/build/generated/res/pngs/release
+org.jointhebeacon.display.app-resValues-4 /Users/arron/dev/the-beacon/android/beacon-display/app/build/generated/res/resValues/release
+org.jointhebeacon.display.app-packageReleaseResources-5 /Users/arron/dev/the-beacon/android/beacon-display/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+org.jointhebeacon.display.app-packageReleaseResources-6 /Users/arron/dev/the-beacon/android/beacon-display/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+org.jointhebeacon.display.app-release-7 /Users/arron/dev/the-beacon/android/beacon-display/app/build/intermediates/merged_res/release/mergeReleaseResources
+org.jointhebeacon.display.app-main-8 /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/res
+org.jointhebeacon.display.app-release-9 /Users/arron/dev/the-beacon/android/beacon-display/app/src/release/res

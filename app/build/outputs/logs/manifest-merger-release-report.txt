@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:2:1-99:12
+INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:2:1-99:12
+INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:2:1-99:12
+INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:2:1-99:12
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/arron/.gradle/caches/transforms-3/7e5226983c63f88d91716ff00e508738/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/arron/.gradle/caches/transforms-3/ac4404634e009ec1d4820560da787aa0/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/arron/.gradle/caches/transforms-3/5e79dd06c1ac8bbb64721f8577b05e65/transformed/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arron/.gradle/caches/transforms-3/4d08cce0c6b5cc998eacd95646fc7fc0/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arron/.gradle/caches/transforms-3/d00897b028d34e79c4203f9a5bbe1c69/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/arron/.gradle/caches/transforms-3/160f4db8da5519d85a2969aed3117ad1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:6:22-78
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:8:5-10:36
+	android:required
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:10:9-33
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:9:9-52
+uses-feature#android.software.leanback
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:12:9-49
+queries
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:15:5-17:15
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/arron/.gradle/caches/transforms-3/7e5226983c63f88d91716ff00e508738/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:26:5-34:15
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/arron/.gradle/caches/transforms-3/7e5226983c63f88d91716ff00e508738/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:26:5-34:15
+package#com.android.chrome
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:16:9-54
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:16:18-51
+application
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:19:5-97:19
+INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:19:5-97:19
+MERGED from [androidx.core:core:1.1.0] /Users/arron/.gradle/caches/transforms-3/5e79dd06c1ac8bbb64721f8577b05e65/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/arron/.gradle/caches/transforms-3/5e79dd06c1ac8bbb64721f8577b05e65/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arron/.gradle/caches/transforms-3/4d08cce0c6b5cc998eacd95646fc7fc0/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arron/.gradle/caches/transforms-3/4d08cce0c6b5cc998eacd95646fc7fc0/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/arron/.gradle/caches/transforms-3/5e79dd06c1ac8bbb64721f8577b05e65/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:23:9-41
+	tools:ignore
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:27:9-43
+	android:icon
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:22:9-45
+	android:allowBackup
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:20:9-36
+	android:banner
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:21:9-45
+	android:theme
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:25:9-51
+	android:usesCleartextTraffic
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:26:9-45
+meta-data#asset_statements
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:29:9-31:59
+	android:resource
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:30:13-44
+activity#org.jointhebeacon.display.BeaconDisplayActivity
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:33:9-87:20
+	android:screenOrientation
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:38:13-50
+	android:launchMode
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:37:13-44
+	android:exported
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:36:13-36
+	tools:ignore
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:39:13-42
+	android:configChanges
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:35:13-96
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:34:13-50
+meta-data#android.support.customtabs.trusted.DEFAULT_URL
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:41:13-43:54
+	android:value
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:43:17-51
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:42:17-78
+meta-data#android.support.customtabs.trusted.FALLBACK_STRATEGY
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:44:13-46:46
+	android:value
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:46:17-43
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:45:17-84
+meta-data#android.support.customtabs.trusted.DISPLAY_MODE
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:47:13-49:52
+	android:value
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:49:17-49
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:48:17-79
+meta-data#android.support.customtabs.trusted.SCREEN_ORIENTATION
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:50:13-52:45
+	android:value
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:52:17-42
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:51:17-85
+meta-data#android.support.customtabs.trusted.STATUS_BAR_COLOR
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:53:13-55:63
+	android:resource
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:55:17-60
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:54:17-83
+meta-data#android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:56:13-58:63
+	android:resource
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:58:17-60
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:57:17-88
+meta-data#android.support.customtabs.trusted.NAVIGATION_BAR_COLOR
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:59:13-61:63
+	android:resource
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:61:17-60
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:60:17-87
+meta-data#android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:62:13-64:63
+	android:resource
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:64:17-60
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:63:17-92
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:66:13-70:29
+action#android.intent.action.MAIN
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:67:17-69
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:67:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:68:17-77
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:68:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:69:17-86
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:69:27-83
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:72:13-76:29
+category#android.intent.category.HOME
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:74:17-73
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:74:27-70
+category#android.intent.category.DEFAULT
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:75:17-76
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:75:27-73
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:jointhebeacon.org+data:path:/network/elmbrook-church/display+data:scheme:https
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:78:13-86:29
+	android:autoVerify
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:78:28-53
+action#android.intent.action.VIEW
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:79:17-69
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:79:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:81:17-78
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:81:27-75
+data
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:82:17-85:46
+	android:path
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:84:21-68
+	android:host
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:83:21-53
+	android:scheme
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:85:21-43
+receiver#org.jointhebeacon.display.BootCompletedReceiver
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:89:9-96:20
+	android:enabled
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:91:13-35
+	android:exported
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:90:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:93:13-95:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:94:17-79
+	android:name
+		ADDED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml:94:25-76
+uses-sdk
+INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/arron/.gradle/caches/transforms-3/7e5226983c63f88d91716ff00e508738/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/arron/.gradle/caches/transforms-3/7e5226983c63f88d91716ff00e508738/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/arron/.gradle/caches/transforms-3/ac4404634e009ec1d4820560da787aa0/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/arron/.gradle/caches/transforms-3/ac4404634e009ec1d4820560da787aa0/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/arron/.gradle/caches/transforms-3/5e79dd06c1ac8bbb64721f8577b05e65/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/arron/.gradle/caches/transforms-3/5e79dd06c1ac8bbb64721f8577b05e65/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arron/.gradle/caches/transforms-3/4d08cce0c6b5cc998eacd95646fc7fc0/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/arron/.gradle/caches/transforms-3/4d08cce0c6b5cc998eacd95646fc7fc0/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arron/.gradle/caches/transforms-3/d00897b028d34e79c4203f9a5bbe1c69/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arron/.gradle/caches/transforms-3/d00897b028d34e79c4203f9a5bbe1c69/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/arron/.gradle/caches/transforms-3/160f4db8da5519d85a2969aed3117ad1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/arron/.gradle/caches/transforms-3/160f4db8da5519d85a2969aed3117ad1/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/arron/dev/the-beacon/android/beacon-display/app/src/main/AndroidManifest.xml
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/arron/.gradle/caches/transforms-3/7e5226983c63f88d91716ff00e508738/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:27:9-33:18
